@@ -1,0 +1,40 @@
+body{margin: 0px; background-color: lightblue; padding: 10px; }
+nav{background: red; }
+nav ul{margin: 5px; padding: 0}
+nav ul li {list-style: none; float: left; margin: 5px; padding: 5px; background: red; border-radius:10px;}
+nav ul li a{text-decoration: none; display: block; width: 100%}
+ul li:hover{background:yellow;}
+
+
+.main{display: flex; flex-direction: row;}
+
+.main2{ text-align: center; padding: 25px; }
+
+.main3{display: flex; flex-direction: row; margin-bottom: 10px;}
+
+.main4{display: flex; flex-direction: column; clear: both;}
+
+
+.main5{display: flex; flex-direction: row;}
+
+
+.main6{display: flex; flex-direction: row;}
+
+
+.raaz{ text-align: center; }
+.raaz2{margin: 10px;}
+
+@media screen and (max-width: 500px){
+body{
+background : red;
+}
+ }
+
+
+.content{display: flex; }
+
+.raaz3{width:80%; background-color: black; color:white; margin-bottom: 5px; height: 320px; }
+	
+.raaz4{width:30%; background-color: ;}
+
+
