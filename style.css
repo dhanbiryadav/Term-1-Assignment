@@ -28,13 +28,27 @@ ul li:hover{background:yellow;}
 body{
 background : red;
 }
+.content{
+flex-direction: column;
  }
+ .raaz3{
+ 	width:100%;
+ }
+ .raaz4{
+ 	width: 100%;
+ 	order:3;
+ }
+}
 
 
-.content{display: flex; }
+.content{display: flex; 
+justify-content: center;
+align-items: center;}
 
-.raaz3{width:80%; background-color: black; color:white; margin-bottom: 5px; height: 320px; }
+.raaz3{width:50%; background-color: black; color:white; margin-bottom: 5px; height: 320px; 
+}
 	
-.raaz4{width:30%; }
+.raaz4{width:50%; 
+flex-grow: 2}
 
 
