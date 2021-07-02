@@ -42,14 +42,14 @@ flex-direction: column;
 
 
 .content{display: flex; 
-justify-content: center;
-align-items: center;}
+}
 
-.raaz3{width:50%; background-color: black; color:white; margin-bottom: 5px; height: 320px; 
+.raaz3{ 
+	background-color: black; margin-bottom: 5px;
+	color:white; 
 }
 	
-.raaz4{width:50%; 
-flex-grow: 2}
+
 
 .contact{float: right;}
 
